@@ -1,0 +1,56 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+.d-flex {
+    display:flex;
+    flex-wrap: wrap;
+}
+.aline-center {
+    align-items: center;
+}
+
+
+#header {
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 30px auto;
+    background-color: pink;
+    border-radius: 30%;
+    
+}
+
+#header .logo {
+    width: 20%;
+    
+}
+#header .logo img {
+    width: 100%;
+}
+#header .menu {
+    width: 60%;
+    justify-content: center;
+}
+#header .menu ul li a{
+    padding:20px;
+    display: block;
+    color:green;
+}
+
+#header .tel-box {
+    width:20%;
+}
+
+#header .tel-box a{
+    color:rgb(210, 38, 38);
+    text-decoration: none;
+}
+#header .tel-box a i{
+    color:blue;
+}
